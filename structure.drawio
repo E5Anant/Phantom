@@ -1,0 +1,77 @@
+<mxfile host="65bd71144e">
+    <diagram id="S8dTcaudbw2l3Jkpie7v" name="Page-1">
+        <mxGraphModel dx="1344" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="PHANTOM" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=22;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="160" width="200" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="CodesmithTool" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=22;arcSize=13;" vertex="1" parent="1">
+                    <mxGeometry x="-60" y="330" width="200" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="ORGOAI" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=22;arcSize=13;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="330" width="200" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="WebSearchTool" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=22;arcSize=13;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="330" width="200" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="ReadFileTool" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=22;arcSize=13;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="330" width="200" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="curved=1;endArrow=classic;html=1;exitX=0.395;exitY=0.026;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="240" y="300" as="sourcePoint"/>
+                        <mxPoint x="290" y="250" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="290" y="300"/>
+                            <mxPoint x="240" y="250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="" style="curved=1;endArrow=classic;html=1;exitX=0.395;exitY=0.026;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="79" y="330" as="sourcePoint"/>
+                        <mxPoint x="120" y="247" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="120" y="297"/>
+                            <mxPoint x="70" y="247"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="" style="curved=1;endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="6" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="550" y="310" as="sourcePoint"/>
+                        <mxPoint x="600" y="260" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="600" y="310"/>
+                            <mxPoint x="550" y="260"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="curved=1;endArrow=classic;html=1;exitX=0.412;exitY=-0.043;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.998;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="689" y="330" as="sourcePoint"/>
+                        <mxPoint x="730" y="247" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="730" y="297"/>
+                            <mxPoint x="680" y="247"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;CodeSmith&lt;/h1&gt;&lt;p&gt;CodeSmith is a custom made tool, Which is inspired from comand line coding assistants, It genertaes python and can bear almost any automation task,&lt;/p&gt;&lt;p&gt;It writes python code and executes on its own to complete any task.&lt;br&gt;&lt;br&gt;It has infinte possibilites of tasks it can do.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="-50" y="440" width="200" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Orgo AI&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;Orgo AI is used with AgentS2, to handle local computer tasks, to be also compatible with the custom made framework.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="445" width="200" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;WebSearchTool&lt;/h1&gt;&lt;p&gt;This tool is to get Phantom Access to current and most recent realtime information.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="435" y="445" width="205" height="235" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ReadFile&lt;/h1&gt;&lt;p&gt;This tool is to power phantom for file manupulation in the current working directory.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="445" width="240" height="255" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

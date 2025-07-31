@@ -1,0 +1,35 @@
+orgo
+groq
+google-generativeai
+anthropic
+openai
+googlesearch-python
+duckduckgo-search
+nest_asyncio
+python-dotenv
+rich
+pyfiglet
+pypdf2
+pywhatkit
+pyautogui
+requests
+pyperclip
+google-genai
+numpy
+backoff
+pandas
+fastapi
+uvicorn
+paddleocr
+paddlepaddle
+together
+scikit-learn
+websockets
+tiktoken
+toml
+black
+python-pptx
+pytesseract
+pyobjc; platform_system == "Darwin"
+pywinauto; platform_system == "Windows"
+pywin32; platform_system == "Windows" 
