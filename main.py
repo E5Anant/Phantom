@@ -33,7 +33,7 @@ websearchtool = WebSearchTool()
 read_file_tool = ReadFileTool()  # Assuming ReadFileTool is defined in automation.py
 orgotool = Orgotool(Computer=Computer(api_key=environ.get('ORGO_API_KEY', "your_api_key_here")), agent=agent_s2)
 tools = [codesmith_tool, websearchtool, orgotool, read_file_tool]
-llm = Gemini('gemini-2.0-flash-lite-001')
+llm = Gemini('gemini-2.0-flash-lite')
 
 
 def main():
